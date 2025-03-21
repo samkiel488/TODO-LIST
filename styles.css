@@ -1,0 +1,88 @@
+body {
+    background-color: slategrey;
+    text-align: center;
+    color: white;
+    margin: 30px 3px;   
+    overflow-y: scroll;
+    font-family: serif;
+    padding: 20px;
+}
+
+#items p{ 
+    font-size: 15px;
+    border-radius: 5px;
+    border: 3px solid rgb(73, 5, 5);
+    background-color:rgb(109, 66, 66);
+    padding: 9px;
+    width: 50%;
+    align-items: left;
+}
+
+
+
+button{
+    font-size: 1rem;
+    background-color: red;
+    color: wheat;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 2s;
+}
+
+#addItem {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: wheat;
+    color: slategray;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 2s;
+    font-weight: bold;
+
+}
+
+button#addItem:hover{
+    background-color: rgb(59, 47, 95);
+    color: white;
+
+}
+
+button:hover{
+    background-color: rgb(59, 47, 95);
+    color: white;
+
+}
+p{
+    text-align: left;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 9px;
+    border-radius: 4px;
+    background-color: wheat;
+    outline: none;
+}
+
+i{
+    color: white;
+}
+
+
+footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center; 
+}

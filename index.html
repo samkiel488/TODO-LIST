@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <h1>TODO List</h1>
+    <marquee behavior="" direction="left">Remember.. Procrastination bores failure, Just do it now!</marquee>
+    <div id="items"></div>
+    <div class="input-container">
+        <input type="text" id="itemInput" placeholder="Add an Item" autofocus>
+        <input type="file" id="imageInput" accept="image/*" style="display: none;">
+        <input type="datetime-local" id="alarmInput">
+        <button id="addItem" onclick="addItem()">Add Item</button>
+        <button onclick="document.getElementById('imageInput').click()" title="Add Image">
+            <i class="fas fa-image"></i>
+        </button>
+    </div>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .input-container {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .input-container button {
+            padding: 5px 10px;
+        }
+        .todo-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 10px 0;
+        }
+        .todo-image {
+            max-width: 100px;
+            max-height: 100px;
+            border-radius: 5px;
+        }
+        .alarm-indicator {
+            color: #ff4444;
+            margin-left: auto;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <h1>TODO List</h1>
+    <marquee behavior="" direction="left">Remember.. Procrastination bores failure, Just do it now!</marquee>
+    <div id="items"></div>
+    <input type="text" id="itemInput" placeholder="Add an Item" autofocus>
+    <button id="addItem" onclick="addItem()">Add Item</button>
+
+    <footer>
+        2025 © ѕαмкιєℓ.∂єν <br> Contact Me
+        <a href="https://www.facebook.com/samkiel06"><i class="fab fa-facebook"></i></a>
+        <a href="https://wa.me/+2348087357158" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/samkiel488"><i class="fab fa-github"></i></a>
+        <a href="tel:+2348087357158" title="Call Me"><i class="fas fa-phone"></i></a>
+        <a href="https://x.com/ѕαмкιєℓ.∂єν"><i class="fab fa-twitter"></i></a>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
