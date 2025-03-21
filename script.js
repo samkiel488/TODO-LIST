@@ -1,13 +1,13 @@
 let items = [];
 const itemsDiv = document.getElementById('items');
 const input = document.getElementById("itemInput");
+const imageInput = document.getElementById("imageInput");
+const alarmInput = document.getElementById("alarmInput");
 const storageKey = "Items";
 
-
-function renderItems() {
-    itemsDiv.innerHTML = null;
-
-    for (const [idx, item] of Object.entries(items)) {
+class TodoItem {
+    constructor(text, image = null, alarm = null) {
+        this.text = text;
         const container = document.createElement("div")
         container.style.marginBottom = "10px"
 
